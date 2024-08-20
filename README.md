@@ -1,3 +1,5 @@
+# Web Scraping Script
+
 This script takes in a csv which contains Linkedin URLs along with the names of html files containing Linkedin profile information. It outputs a csv where each row contains a Linkedin URL along with the corresponding high school.
 
 The input csv should be named input_linkedin_profiles.csv. Each row should consist of the URL as the first element and the html file as the second element, and the first row should be actual data: fieldnames should not be included. The Education section (if it exists) of each HTML file should have the <h3> tag, and it should have a list as its only sibling - inside of each list should be the schools listed in the Education section. Four examples of properly formatted html files have been included in this repo, as well as a sample input csv file (also named input_linkedin_profiles.csv).
